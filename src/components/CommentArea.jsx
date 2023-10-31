@@ -65,7 +65,7 @@ const CommentArea = (props) => {
     return (
       <div>
         <div>
-          <CommentsList reviews={comments} />
+          <CommentsList reviews={comments} getComments={getComments} />
         </div>
         <div>
           <AddComment bookId={props.bookId} />
